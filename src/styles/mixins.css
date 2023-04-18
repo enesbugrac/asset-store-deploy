@@ -1,0 +1,24 @@
+.flex-center {
+  @apply flex items-center;
+}
+.hidden-nowrap {
+  @apply overflow-hidden whitespace-nowrap;
+}
+.flex-between-mx10-w-full {
+  @apply flex justify-between my-3 w-full;
+}
+.filter-item {
+  @apply px-2 py-2.5 flex-center w-full mx-4 my-0;
+}
+.page-title {
+  @apply text-3xl font-light py-4;
+}
+.upload-card {
+  @apply col-span-1 3xl:py-56 shadow-2xl flex-center justify-center rounded-lg overflow-hidden relative 3xl:h-500 h-96 cursor-pointer;
+}
+.upload-card-title {
+  @apply hover:text-lg hover:font-semibold transition-all duration-300  overflow-hidden;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
